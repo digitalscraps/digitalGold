@@ -151,7 +151,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 @-ms-viewport {
   width: device-width; }
@@ -1409,7 +1409,7 @@ select.form-control:focus::-ms-value {
 .col-form-label-sm {
   padding-top: calc(0.25rem + 1px);
   padding-bottom: calc(0.25rem + 1px);
-  font-size: 0.76563rem;
+  font-size: 0.76562rem;
   line-height: 1.5; }
 
 .form-control-plaintext {
@@ -1425,28 +1425,22 @@ select.form-control:focus::-ms-value {
   .form-control-plaintext.form-control-sm, .input-group-sm > .form-control-plaintext.form-control, .dataTables_filter .input-group-sm > input.form-control-plaintext,
   .input-group-sm > .input-group-prepend > .form-control-plaintext.input-group-text,
   .input-group-sm > .input-group-append > .form-control-plaintext.input-group-text,
-  .input-group-sm > .input-group-prepend > .form-control-plaintext.btn, .sp-container
-  .input-group-sm > .input-group-prepend > button.form-control-plaintext,
-  .input-group-sm > .input-group-append > .form-control-plaintext.btn, .sp-container
-  .input-group-sm > .input-group-append > button.form-control-plaintext, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control, .dataTables_filter .input-group-lg > input.form-control-plaintext,
+  .input-group-sm > .input-group-prepend > .form-control-plaintext.btn, .sp-container .input-group-sm > .input-group-prepend > button.form-control-plaintext,
+  .input-group-sm > .input-group-append > .form-control-plaintext.btn, .sp-container .input-group-sm > .input-group-append > button.form-control-plaintext, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control, .dataTables_filter .input-group-lg > input.form-control-plaintext,
   .input-group-lg > .input-group-prepend > .form-control-plaintext.input-group-text,
   .input-group-lg > .input-group-append > .form-control-plaintext.input-group-text,
-  .input-group-lg > .input-group-prepend > .form-control-plaintext.btn, .sp-container
-  .input-group-lg > .input-group-prepend > button.form-control-plaintext,
-  .input-group-lg > .input-group-append > .form-control-plaintext.btn, .sp-container
-  .input-group-lg > .input-group-append > button.form-control-plaintext {
+  .input-group-lg > .input-group-prepend > .form-control-plaintext.btn, .sp-container .input-group-lg > .input-group-prepend > button.form-control-plaintext,
+  .input-group-lg > .input-group-append > .form-control-plaintext.btn, .sp-container .input-group-lg > .input-group-append > button.form-control-plaintext {
     padding-right: 0;
     padding-left: 0; }
 
 .form-control-sm, .input-group-sm > .form-control, .dataTables_filter .input-group-sm > input,
 .input-group-sm > .input-group-prepend > .input-group-text,
 .input-group-sm > .input-group-append > .input-group-text,
-.input-group-sm > .input-group-prepend > .btn, .sp-container
-.input-group-sm > .input-group-prepend > button,
-.input-group-sm > .input-group-append > .btn, .sp-container
-.input-group-sm > .input-group-append > button {
+.input-group-sm > .input-group-prepend > .btn, .sp-container .input-group-sm > .input-group-prepend > button,
+.input-group-sm > .input-group-append > .btn, .sp-container .input-group-sm > .input-group-append > button {
   padding: 0.25rem 0.5rem;
-  font-size: 0.76563rem;
+  font-size: 0.76562rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
@@ -1460,10 +1454,8 @@ select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.for
 .form-control-lg, .input-group-lg > .form-control, .dataTables_filter .input-group-lg > input,
 .input-group-lg > .input-group-prepend > .input-group-text,
 .input-group-lg > .input-group-append > .input-group-text,
-.input-group-lg > .input-group-prepend > .btn, .sp-container
-.input-group-lg > .input-group-prepend > button,
-.input-group-lg > .input-group-append > .btn, .sp-container
-.input-group-lg > .input-group-append > button {
+.input-group-lg > .input-group-prepend > .btn, .sp-container .input-group-lg > .input-group-prepend > button,
+.input-group-lg > .input-group-append > .btn, .sp-container .input-group-lg > .input-group-append > button {
   padding: 0.5rem 1rem;
   font-size: 1.09375rem;
   line-height: 1.5;
@@ -1474,7 +1466,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .input-group-lg > .input-group-append > select.input-group-text:not([size]):not([multiple]),
 .input-group-lg > .input-group-prepend > select.btn:not([size]):not([multiple]),
 .input-group-lg > .input-group-append > select.btn:not([size]):not([multiple]) {
-  height: calc(2.64063rem + 2px); }
+  height: calc(2.64062rem + 2px); }
 
 .form-group {
   margin-bottom: 1rem; }
@@ -1557,69 +1549,65 @@ textarea.custom-select.parsley-success {
     box-shadow: 0 0 0 0.2rem rgba(35, 191, 8, 0.25); }
   .was-validated .form-control:valid ~ .valid-feedback, .was-validated .dataTables_filter input:valid ~ .valid-feedback, .dataTables_filter .was-validated input:valid ~ .valid-feedback,
   .was-validated .form-control:valid ~ .valid-tooltip,
-  .was-validated .dataTables_filter input:valid ~ .valid-tooltip, .dataTables_filter
-  .was-validated input:valid ~ .valid-tooltip, .form-control.is-valid ~ .valid-feedback, .dataTables_filter input.is-valid ~ .valid-feedback, .dataTables_filter input.parsley-success ~ .valid-feedback, input.form-control.parsley-success ~ .valid-feedback,
-  textarea.form-control.parsley-success ~ .valid-feedback,
-  .form-control.is-valid ~ .valid-tooltip, .dataTables_filter input.is-valid ~ .valid-tooltip, .dataTables_filter input.parsley-success ~ .valid-tooltip, input.form-control.parsley-success ~ .valid-tooltip,
+  .was-validated .dataTables_filter input:valid ~ .valid-tooltip,
+  .dataTables_filter .was-validated input:valid ~ .valid-tooltip, .form-control.is-valid ~ .valid-feedback, .dataTables_filter input.is-valid ~ .valid-feedback, .dataTables_filter input.parsley-success ~ .valid-feedback, input.form-control.parsley-success ~ .valid-feedback, textarea.form-control.parsley-success ~ .valid-feedback,
+  .form-control.is-valid ~ .valid-tooltip,
+  .dataTables_filter input.is-valid ~ .valid-tooltip,
+  .dataTables_filter input.parsley-success ~ .valid-tooltip,
+  input.form-control.parsley-success ~ .valid-tooltip,
   textarea.form-control.parsley-success ~ .valid-tooltip, .was-validated
   .custom-select:valid ~ .valid-feedback,
   .was-validated
   .custom-select:valid ~ .valid-tooltip,
-  .custom-select.is-valid ~ .valid-feedback, input.custom-select.parsley-success ~ .valid-feedback,
+  .custom-select.is-valid ~ .valid-feedback,
+  input.custom-select.parsley-success ~ .valid-feedback,
   textarea.custom-select.parsley-success ~ .valid-feedback,
-  .custom-select.is-valid ~ .valid-tooltip, input.custom-select.parsley-success ~ .valid-tooltip,
+  .custom-select.is-valid ~ .valid-tooltip,
+  input.custom-select.parsley-success ~ .valid-tooltip,
   textarea.custom-select.parsley-success ~ .valid-tooltip {
     display: block; }
 
-.was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label, input.form-check-input.parsley-success ~ .form-check-label,
-textarea.form-check-input.parsley-success ~ .form-check-label {
+.was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label, input.form-check-input.parsley-success ~ .form-check-label, textarea.form-check-input.parsley-success ~ .form-check-label {
   color: #23BF08; }
 
 .was-validated .form-check-input:valid ~ .valid-feedback,
-.was-validated .form-check-input:valid ~ .valid-tooltip, .form-check-input.is-valid ~ .valid-feedback, input.form-check-input.parsley-success ~ .valid-feedback,
-textarea.form-check-input.parsley-success ~ .valid-feedback,
-.form-check-input.is-valid ~ .valid-tooltip, input.form-check-input.parsley-success ~ .valid-tooltip,
+.was-validated .form-check-input:valid ~ .valid-tooltip, .form-check-input.is-valid ~ .valid-feedback, input.form-check-input.parsley-success ~ .valid-feedback, textarea.form-check-input.parsley-success ~ .valid-feedback,
+.form-check-input.is-valid ~ .valid-tooltip,
+input.form-check-input.parsley-success ~ .valid-tooltip,
 textarea.form-check-input.parsley-success ~ .valid-tooltip {
   display: block; }
 
-.was-validated .custom-control-input:valid ~ .custom-control-label, .custom-control-input.is-valid ~ .custom-control-label, input.custom-control-input.parsley-success ~ .custom-control-label,
-textarea.custom-control-input.parsley-success ~ .custom-control-label {
+.was-validated .custom-control-input:valid ~ .custom-control-label, .custom-control-input.is-valid ~ .custom-control-label, input.custom-control-input.parsley-success ~ .custom-control-label, textarea.custom-control-input.parsley-success ~ .custom-control-label {
   color: #23BF08; }
-  .was-validated .custom-control-input:valid ~ .custom-control-label::before, .custom-control-input.is-valid ~ .custom-control-label::before, input.custom-control-input.parsley-success ~ .custom-control-label::before,
-  textarea.custom-control-input.parsley-success ~ .custom-control-label::before {
+  .was-validated .custom-control-input:valid ~ .custom-control-label::before, .custom-control-input.is-valid ~ .custom-control-label::before, input.custom-control-input.parsley-success ~ .custom-control-label::before, textarea.custom-control-input.parsley-success ~ .custom-control-label::before {
     background-color: #68f84f; }
 
 .was-validated .custom-control-input:valid ~ .valid-feedback,
-.was-validated .custom-control-input:valid ~ .valid-tooltip, .custom-control-input.is-valid ~ .valid-feedback, input.custom-control-input.parsley-success ~ .valid-feedback,
-textarea.custom-control-input.parsley-success ~ .valid-feedback,
-.custom-control-input.is-valid ~ .valid-tooltip, input.custom-control-input.parsley-success ~ .valid-tooltip,
+.was-validated .custom-control-input:valid ~ .valid-tooltip, .custom-control-input.is-valid ~ .valid-feedback, input.custom-control-input.parsley-success ~ .valid-feedback, textarea.custom-control-input.parsley-success ~ .valid-feedback,
+.custom-control-input.is-valid ~ .valid-tooltip,
+input.custom-control-input.parsley-success ~ .valid-tooltip,
 textarea.custom-control-input.parsley-success ~ .valid-tooltip {
   display: block; }
 
-.was-validated .custom-control-input:valid:checked ~ .custom-control-label::before, .custom-control-input.is-valid:checked ~ .custom-control-label::before, input.custom-control-input.parsley-success:checked ~ .custom-control-label::before,
-textarea.custom-control-input.parsley-success:checked ~ .custom-control-label::before {
+.was-validated .custom-control-input:valid:checked ~ .custom-control-label::before, .custom-control-input.is-valid:checked ~ .custom-control-label::before, input.custom-control-input.parsley-success:checked ~ .custom-control-label::before, textarea.custom-control-input.parsley-success:checked ~ .custom-control-label::before {
   background-color: #2cf00a; }
 
-.was-validated .custom-control-input:valid:focus ~ .custom-control-label::before, .custom-control-input.is-valid:focus ~ .custom-control-label::before, input.custom-control-input.parsley-success:focus ~ .custom-control-label::before,
-textarea.custom-control-input.parsley-success:focus ~ .custom-control-label::before {
+.was-validated .custom-control-input:valid:focus ~ .custom-control-label::before, .custom-control-input.is-valid:focus ~ .custom-control-label::before, input.custom-control-input.parsley-success:focus ~ .custom-control-label::before, textarea.custom-control-input.parsley-success:focus ~ .custom-control-label::before {
   box-shadow: 0 0 0 1px #f0f2f7, 0 0 0 0.2rem rgba(35, 191, 8, 0.25); }
 
-.was-validated .custom-file-input:valid ~ .custom-file-label, .custom-file-input.is-valid ~ .custom-file-label, input.custom-file-input.parsley-success ~ .custom-file-label,
-textarea.custom-file-input.parsley-success ~ .custom-file-label {
+.was-validated .custom-file-input:valid ~ .custom-file-label, .custom-file-input.is-valid ~ .custom-file-label, input.custom-file-input.parsley-success ~ .custom-file-label, textarea.custom-file-input.parsley-success ~ .custom-file-label {
   border-color: #23BF08; }
-  .was-validated .custom-file-input:valid ~ .custom-file-label::before, .custom-file-input.is-valid ~ .custom-file-label::before, input.custom-file-input.parsley-success ~ .custom-file-label::before,
-  textarea.custom-file-input.parsley-success ~ .custom-file-label::before {
+  .was-validated .custom-file-input:valid ~ .custom-file-label::before, .custom-file-input.is-valid ~ .custom-file-label::before, input.custom-file-input.parsley-success ~ .custom-file-label::before, textarea.custom-file-input.parsley-success ~ .custom-file-label::before {
     border-color: inherit; }
 
 .was-validated .custom-file-input:valid ~ .valid-feedback,
-.was-validated .custom-file-input:valid ~ .valid-tooltip, .custom-file-input.is-valid ~ .valid-feedback, input.custom-file-input.parsley-success ~ .valid-feedback,
-textarea.custom-file-input.parsley-success ~ .valid-feedback,
-.custom-file-input.is-valid ~ .valid-tooltip, input.custom-file-input.parsley-success ~ .valid-tooltip,
+.was-validated .custom-file-input:valid ~ .valid-tooltip, .custom-file-input.is-valid ~ .valid-feedback, input.custom-file-input.parsley-success ~ .valid-feedback, textarea.custom-file-input.parsley-success ~ .valid-feedback,
+.custom-file-input.is-valid ~ .valid-tooltip,
+input.custom-file-input.parsley-success ~ .valid-tooltip,
 textarea.custom-file-input.parsley-success ~ .valid-tooltip {
   display: block; }
 
-.was-validated .custom-file-input:valid:focus ~ .custom-file-label, .custom-file-input.is-valid:focus ~ .custom-file-label, input.custom-file-input.parsley-success:focus ~ .custom-file-label,
-textarea.custom-file-input.parsley-success:focus ~ .custom-file-label {
+.was-validated .custom-file-input:valid:focus ~ .custom-file-label, .custom-file-input.is-valid:focus ~ .custom-file-label, input.custom-file-input.parsley-success:focus ~ .custom-file-label, textarea.custom-file-input.parsley-success:focus ~ .custom-file-label {
   box-shadow: 0 0 0 0.2rem rgba(35, 191, 8, 0.25); }
 
 .invalid-feedback {
@@ -1660,69 +1648,65 @@ textarea.custom-select.parsley-error {
     box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }
   .was-validated .form-control:invalid ~ .invalid-feedback, .was-validated .dataTables_filter input:invalid ~ .invalid-feedback, .dataTables_filter .was-validated input:invalid ~ .invalid-feedback,
   .was-validated .form-control:invalid ~ .invalid-tooltip,
-  .was-validated .dataTables_filter input:invalid ~ .invalid-tooltip, .dataTables_filter
-  .was-validated input:invalid ~ .invalid-tooltip, .form-control.is-invalid ~ .invalid-feedback, .dataTables_filter input.is-invalid ~ .invalid-feedback, .dataTables_filter input.parsley-error ~ .invalid-feedback, input.form-control.parsley-error ~ .invalid-feedback,
-  textarea.form-control.parsley-error ~ .invalid-feedback,
-  .form-control.is-invalid ~ .invalid-tooltip, .dataTables_filter input.is-invalid ~ .invalid-tooltip, .dataTables_filter input.parsley-error ~ .invalid-tooltip, input.form-control.parsley-error ~ .invalid-tooltip,
+  .was-validated .dataTables_filter input:invalid ~ .invalid-tooltip,
+  .dataTables_filter .was-validated input:invalid ~ .invalid-tooltip, .form-control.is-invalid ~ .invalid-feedback, .dataTables_filter input.is-invalid ~ .invalid-feedback, .dataTables_filter input.parsley-error ~ .invalid-feedback, input.form-control.parsley-error ~ .invalid-feedback, textarea.form-control.parsley-error ~ .invalid-feedback,
+  .form-control.is-invalid ~ .invalid-tooltip,
+  .dataTables_filter input.is-invalid ~ .invalid-tooltip,
+  .dataTables_filter input.parsley-error ~ .invalid-tooltip,
+  input.form-control.parsley-error ~ .invalid-tooltip,
   textarea.form-control.parsley-error ~ .invalid-tooltip, .was-validated
   .custom-select:invalid ~ .invalid-feedback,
   .was-validated
   .custom-select:invalid ~ .invalid-tooltip,
-  .custom-select.is-invalid ~ .invalid-feedback, input.custom-select.parsley-error ~ .invalid-feedback,
+  .custom-select.is-invalid ~ .invalid-feedback,
+  input.custom-select.parsley-error ~ .invalid-feedback,
   textarea.custom-select.parsley-error ~ .invalid-feedback,
-  .custom-select.is-invalid ~ .invalid-tooltip, input.custom-select.parsley-error ~ .invalid-tooltip,
+  .custom-select.is-invalid ~ .invalid-tooltip,
+  input.custom-select.parsley-error ~ .invalid-tooltip,
   textarea.custom-select.parsley-error ~ .invalid-tooltip {
     display: block; }
 
-.was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label, input.form-check-input.parsley-error ~ .form-check-label,
-textarea.form-check-input.parsley-error ~ .form-check-label {
+.was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label, input.form-check-input.parsley-error ~ .form-check-label, textarea.form-check-input.parsley-error ~ .form-check-label {
   color: #dc3545; }
 
 .was-validated .form-check-input:invalid ~ .invalid-feedback,
-.was-validated .form-check-input:invalid ~ .invalid-tooltip, .form-check-input.is-invalid ~ .invalid-feedback, input.form-check-input.parsley-error ~ .invalid-feedback,
-textarea.form-check-input.parsley-error ~ .invalid-feedback,
-.form-check-input.is-invalid ~ .invalid-tooltip, input.form-check-input.parsley-error ~ .invalid-tooltip,
+.was-validated .form-check-input:invalid ~ .invalid-tooltip, .form-check-input.is-invalid ~ .invalid-feedback, input.form-check-input.parsley-error ~ .invalid-feedback, textarea.form-check-input.parsley-error ~ .invalid-feedback,
+.form-check-input.is-invalid ~ .invalid-tooltip,
+input.form-check-input.parsley-error ~ .invalid-tooltip,
 textarea.form-check-input.parsley-error ~ .invalid-tooltip {
   display: block; }
 
-.was-validated .custom-control-input:invalid ~ .custom-control-label, .custom-control-input.is-invalid ~ .custom-control-label, input.custom-control-input.parsley-error ~ .custom-control-label,
-textarea.custom-control-input.parsley-error ~ .custom-control-label {
+.was-validated .custom-control-input:invalid ~ .custom-control-label, .custom-control-input.is-invalid ~ .custom-control-label, input.custom-control-input.parsley-error ~ .custom-control-label, textarea.custom-control-input.parsley-error ~ .custom-control-label {
   color: #dc3545; }
-  .was-validated .custom-control-input:invalid ~ .custom-control-label::before, .custom-control-input.is-invalid ~ .custom-control-label::before, input.custom-control-input.parsley-error ~ .custom-control-label::before,
-  textarea.custom-control-input.parsley-error ~ .custom-control-label::before {
+  .was-validated .custom-control-input:invalid ~ .custom-control-label::before, .custom-control-input.is-invalid ~ .custom-control-label::before, input.custom-control-input.parsley-error ~ .custom-control-label::before, textarea.custom-control-input.parsley-error ~ .custom-control-label::before {
     background-color: #efa2a9; }
 
 .was-validated .custom-control-input:invalid ~ .invalid-feedback,
-.was-validated .custom-control-input:invalid ~ .invalid-tooltip, .custom-control-input.is-invalid ~ .invalid-feedback, input.custom-control-input.parsley-error ~ .invalid-feedback,
-textarea.custom-control-input.parsley-error ~ .invalid-feedback,
-.custom-control-input.is-invalid ~ .invalid-tooltip, input.custom-control-input.parsley-error ~ .invalid-tooltip,
+.was-validated .custom-control-input:invalid ~ .invalid-tooltip, .custom-control-input.is-invalid ~ .invalid-feedback, input.custom-control-input.parsley-error ~ .invalid-feedback, textarea.custom-control-input.parsley-error ~ .invalid-feedback,
+.custom-control-input.is-invalid ~ .invalid-tooltip,
+input.custom-control-input.parsley-error ~ .invalid-tooltip,
 textarea.custom-control-input.parsley-error ~ .invalid-tooltip {
   display: block; }
 
-.was-validated .custom-control-input:invalid:checked ~ .custom-control-label::before, .custom-control-input.is-invalid:checked ~ .custom-control-label::before, input.custom-control-input.parsley-error:checked ~ .custom-control-label::before,
-textarea.custom-control-input.parsley-error:checked ~ .custom-control-label::before {
+.was-validated .custom-control-input:invalid:checked ~ .custom-control-label::before, .custom-control-input.is-invalid:checked ~ .custom-control-label::before, input.custom-control-input.parsley-error:checked ~ .custom-control-label::before, textarea.custom-control-input.parsley-error:checked ~ .custom-control-label::before {
   background-color: #e4606d; }
 
-.was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before, .custom-control-input.is-invalid:focus ~ .custom-control-label::before, input.custom-control-input.parsley-error:focus ~ .custom-control-label::before,
-textarea.custom-control-input.parsley-error:focus ~ .custom-control-label::before {
+.was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before, .custom-control-input.is-invalid:focus ~ .custom-control-label::before, input.custom-control-input.parsley-error:focus ~ .custom-control-label::before, textarea.custom-control-input.parsley-error:focus ~ .custom-control-label::before {
   box-shadow: 0 0 0 1px #f0f2f7, 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }
 
-.was-validated .custom-file-input:invalid ~ .custom-file-label, .custom-file-input.is-invalid ~ .custom-file-label, input.custom-file-input.parsley-error ~ .custom-file-label,
-textarea.custom-file-input.parsley-error ~ .custom-file-label {
+.was-validated .custom-file-input:invalid ~ .custom-file-label, .custom-file-input.is-invalid ~ .custom-file-label, input.custom-file-input.parsley-error ~ .custom-file-label, textarea.custom-file-input.parsley-error ~ .custom-file-label {
   border-color: #dc3545; }
-  .was-validated .custom-file-input:invalid ~ .custom-file-label::before, .custom-file-input.is-invalid ~ .custom-file-label::before, input.custom-file-input.parsley-error ~ .custom-file-label::before,
-  textarea.custom-file-input.parsley-error ~ .custom-file-label::before {
+  .was-validated .custom-file-input:invalid ~ .custom-file-label::before, .custom-file-input.is-invalid ~ .custom-file-label::before, input.custom-file-input.parsley-error ~ .custom-file-label::before, textarea.custom-file-input.parsley-error ~ .custom-file-label::before {
     border-color: inherit; }
 
 .was-validated .custom-file-input:invalid ~ .invalid-feedback,
-.was-validated .custom-file-input:invalid ~ .invalid-tooltip, .custom-file-input.is-invalid ~ .invalid-feedback, input.custom-file-input.parsley-error ~ .invalid-feedback,
-textarea.custom-file-input.parsley-error ~ .invalid-feedback,
-.custom-file-input.is-invalid ~ .invalid-tooltip, input.custom-file-input.parsley-error ~ .invalid-tooltip,
+.was-validated .custom-file-input:invalid ~ .invalid-tooltip, .custom-file-input.is-invalid ~ .invalid-feedback, input.custom-file-input.parsley-error ~ .invalid-feedback, textarea.custom-file-input.parsley-error ~ .invalid-feedback,
+.custom-file-input.is-invalid ~ .invalid-tooltip,
+input.custom-file-input.parsley-error ~ .invalid-tooltip,
 textarea.custom-file-input.parsley-error ~ .invalid-tooltip {
   display: block; }
 
-.was-validated .custom-file-input:invalid:focus ~ .custom-file-label, .custom-file-input.is-invalid:focus ~ .custom-file-label, input.custom-file-input.parsley-error:focus ~ .custom-file-label,
-textarea.custom-file-input.parsley-error:focus ~ .custom-file-label {
+.was-validated .custom-file-input:invalid:focus ~ .custom-file-label, .custom-file-input.is-invalid:focus ~ .custom-file-label, input.custom-file-input.parsley-error:focus ~ .custom-file-label, textarea.custom-file-input.parsley-error:focus ~ .custom-file-label {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }
 
 .form-inline {
@@ -2189,7 +2173,7 @@ fieldset:disabled a.btn {
 
 .btn-sm, .btn-group-sm > .btn, .sp-container .btn-group-sm > button {
   padding: 0.25rem 0.5rem;
-  font-size: 0.76563rem;
+  font-size: 0.76562rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
@@ -2373,7 +2357,7 @@ tbody.collapse.show {
   display: block;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
-  font-size: 0.76563rem;
+  font-size: 0.76562rem;
   color: #6c757d;
   white-space: nowrap; }
 
@@ -2383,43 +2367,43 @@ tbody.collapse.show {
   display: inline-flex;
   vertical-align: middle; }
   .btn-group > .btn, .sp-container .btn-group > button,
-  .btn-group-vertical > .btn, .sp-container
-  .btn-group-vertical > button {
+  .btn-group-vertical > .btn,
+  .sp-container .btn-group-vertical > button {
     position: relative;
     flex: 0 1 auto; }
     .btn-group > .btn:hover, .sp-container .btn-group > button:hover,
-    .btn-group-vertical > .btn:hover, .sp-container
-    .btn-group-vertical > button:hover {
+    .btn-group-vertical > .btn:hover,
+    .sp-container .btn-group-vertical > button:hover {
       z-index: 1; }
     .btn-group > .btn:focus, .sp-container .btn-group > button:focus, .btn-group > .btn:active, .sp-container .btn-group > button:active, .btn-group > .btn.active, .sp-container .btn-group > button.active,
-    .btn-group-vertical > .btn:focus, .sp-container
-    .btn-group-vertical > button:focus,
-    .btn-group-vertical > .btn:active, .sp-container
-    .btn-group-vertical > button:active,
-    .btn-group-vertical > .btn.active, .sp-container
-    .btn-group-vertical > button.active {
+    .btn-group-vertical > .btn:focus,
+    .sp-container .btn-group-vertical > button:focus,
+    .btn-group-vertical > .btn:active,
+    .sp-container .btn-group-vertical > button:active,
+    .btn-group-vertical > .btn.active,
+    .sp-container .btn-group-vertical > button.active {
       z-index: 1; }
   .btn-group .btn + .btn, .btn-group .sp-container button + .btn, .sp-container .btn-group button + .btn, .btn-group .sp-container .btn + button, .sp-container .btn-group .btn + button, .btn-group .sp-container button + button, .sp-container .btn-group button + button,
   .btn-group .btn + .btn-group,
-  .btn-group .sp-container button + .btn-group, .sp-container
-  .btn-group button + .btn-group,
+  .btn-group .sp-container button + .btn-group,
+  .sp-container .btn-group button + .btn-group,
   .btn-group .btn-group + .btn,
-  .btn-group .sp-container .btn-group + button, .sp-container
-  .btn-group .btn-group + button,
+  .btn-group .sp-container .btn-group + button,
+  .sp-container .btn-group .btn-group + button,
   .btn-group .btn-group + .btn-group,
   .btn-group-vertical .btn + .btn,
-  .btn-group-vertical .sp-container button + .btn, .sp-container
-  .btn-group-vertical button + .btn,
-  .btn-group-vertical .sp-container .btn + button, .sp-container
-  .btn-group-vertical .btn + button,
-  .btn-group-vertical .sp-container button + button, .sp-container
-  .btn-group-vertical button + button,
+  .btn-group-vertical .sp-container button + .btn,
+  .sp-container .btn-group-vertical button + .btn,
+  .btn-group-vertical .sp-container .btn + button,
+  .sp-container .btn-group-vertical .btn + button,
+  .btn-group-vertical .sp-container button + button,
+  .sp-container .btn-group-vertical button + button,
   .btn-group-vertical .btn + .btn-group,
-  .btn-group-vertical .sp-container button + .btn-group, .sp-container
-  .btn-group-vertical button + .btn-group,
+  .btn-group-vertical .sp-container button + .btn-group,
+  .sp-container .btn-group-vertical button + .btn-group,
   .btn-group-vertical .btn-group + .btn,
-  .btn-group-vertical .sp-container .btn-group + button, .sp-container
-  .btn-group-vertical .btn-group + button,
+  .btn-group-vertical .sp-container .btn-group + button,
+  .sp-container .btn-group-vertical .btn-group + button,
   .btn-group-vertical .btn-group + .btn-group {
     margin-left: -1px; }
 
@@ -2434,14 +2418,14 @@ tbody.collapse.show {
   margin-left: 0; }
 
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle), .sp-container .btn-group > button:not(:last-child):not(.dropdown-toggle),
-.btn-group > .btn-group:not(:last-child) > .btn, .sp-container
-.btn-group > .btn-group:not(:last-child) > button {
+.btn-group > .btn-group:not(:last-child) > .btn,
+.sp-container .btn-group > .btn-group:not(:last-child) > button {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
 .btn-group > .btn:not(:first-child), .sp-container .btn-group > button:not(:first-child),
-.btn-group > .btn-group:not(:first-child) > .btn, .sp-container
-.btn-group > .btn-group:not(:first-child) > button {
+.btn-group > .btn-group:not(:first-child) > .btn,
+.sp-container .btn-group > .btn-group:not(:first-child) > button {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
 
@@ -2467,35 +2451,35 @@ tbody.collapse.show {
   .btn-group-vertical .btn-group {
     width: 100%; }
   .btn-group-vertical > .btn + .btn, .sp-container .btn-group-vertical > button + .btn, .sp-container .btn-group-vertical > .btn + button, .sp-container .btn-group-vertical > button + button,
-  .btn-group-vertical > .btn + .btn-group, .sp-container
-  .btn-group-vertical > button + .btn-group,
-  .btn-group-vertical > .btn-group + .btn, .sp-container
-  .btn-group-vertical > .btn-group + button,
+  .btn-group-vertical > .btn + .btn-group,
+  .sp-container .btn-group-vertical > button + .btn-group,
+  .btn-group-vertical > .btn-group + .btn,
+  .sp-container .btn-group-vertical > .btn-group + button,
   .btn-group-vertical > .btn-group + .btn-group {
     margin-top: -1px;
     margin-left: 0; }
   .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .sp-container .btn-group-vertical > button:not(:last-child):not(.dropdown-toggle),
-  .btn-group-vertical > .btn-group:not(:last-child) > .btn, .sp-container
-  .btn-group-vertical > .btn-group:not(:last-child) > button {
+  .btn-group-vertical > .btn-group:not(:last-child) > .btn,
+  .sp-container .btn-group-vertical > .btn-group:not(:last-child) > button {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0; }
   .btn-group-vertical > .btn:not(:first-child), .sp-container .btn-group-vertical > button:not(:first-child),
-  .btn-group-vertical > .btn-group:not(:first-child) > .btn, .sp-container
-  .btn-group-vertical > .btn-group:not(:first-child) > button {
+  .btn-group-vertical > .btn-group:not(:first-child) > .btn,
+  .sp-container .btn-group-vertical > .btn-group:not(:first-child) > button {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
 
 .btn-group-toggle > .btn, .sp-container .btn-group-toggle > button,
-.btn-group-toggle > .btn-group > .btn, .sp-container
-.btn-group-toggle > .btn-group > button {
+.btn-group-toggle > .btn-group > .btn,
+.sp-container .btn-group-toggle > .btn-group > button {
   margin-bottom: 0; }
   .btn-group-toggle > .btn input[type="radio"], .sp-container .btn-group-toggle > button input[type="radio"],
-  .btn-group-toggle > .btn input[type="checkbox"], .sp-container
-  .btn-group-toggle > button input[type="checkbox"],
-  .btn-group-toggle > .btn-group > .btn input[type="radio"], .sp-container
-  .btn-group-toggle > .btn-group > button input[type="radio"],
-  .btn-group-toggle > .btn-group > .btn input[type="checkbox"], .sp-container
-  .btn-group-toggle > .btn-group > button input[type="checkbox"] {
+  .btn-group-toggle > .btn input[type="checkbox"],
+  .sp-container .btn-group-toggle > button input[type="checkbox"],
+  .btn-group-toggle > .btn-group > .btn input[type="radio"],
+  .sp-container .btn-group-toggle > .btn-group > button input[type="radio"],
+  .btn-group-toggle > .btn-group > .btn input[type="checkbox"],
+  .sp-container .btn-group-toggle > .btn-group > button input[type="checkbox"] {
     position: absolute;
     clip: rect(0, 0, 0, 0);
     pointer-events: none; }
@@ -2518,16 +2502,16 @@ tbody.collapse.show {
     .input-group > .custom-file:focus {
       z-index: 3; }
     .input-group > .form-control + .form-control, .dataTables_filter .input-group > input + .form-control, .dataTables_filter .input-group > .form-control + input, .dataTables_filter .input-group > input + input,
-    .input-group > .form-control + .custom-select, .dataTables_filter
-    .input-group > input + .custom-select,
-    .input-group > .form-control + .custom-file, .dataTables_filter
-    .input-group > input + .custom-file,
-    .input-group > .custom-select + .form-control, .dataTables_filter
-    .input-group > .custom-select + input,
+    .input-group > .form-control + .custom-select,
+    .dataTables_filter .input-group > input + .custom-select,
+    .input-group > .form-control + .custom-file,
+    .dataTables_filter .input-group > input + .custom-file,
+    .input-group > .custom-select + .form-control,
+    .dataTables_filter .input-group > .custom-select + input,
     .input-group > .custom-select + .custom-select,
     .input-group > .custom-select + .custom-file,
-    .input-group > .custom-file + .form-control, .dataTables_filter
-    .input-group > .custom-file + input,
+    .input-group > .custom-file + .form-control,
+    .dataTables_filter .input-group > .custom-file + input,
     .input-group > .custom-file + .custom-select,
     .input-group > .custom-file + .custom-file {
       margin-left: -1px; }
@@ -2556,32 +2540,32 @@ tbody.collapse.show {
   display: flex; }
   .input-group-prepend .btn, .input-group-prepend .sp-container button, .sp-container .input-group-prepend button,
   .input-group-append .btn,
-  .input-group-append .sp-container button, .sp-container
-  .input-group-append button {
+  .input-group-append .sp-container button,
+  .sp-container .input-group-append button {
     position: relative;
     z-index: 2; }
   .input-group-prepend .btn + .btn, .input-group-prepend .sp-container button + .btn, .sp-container .input-group-prepend button + .btn, .input-group-prepend .sp-container .btn + button, .sp-container .input-group-prepend .btn + button, .input-group-prepend .sp-container button + button, .sp-container .input-group-prepend button + button,
   .input-group-prepend .btn + .input-group-text,
-  .input-group-prepend .sp-container button + .input-group-text, .sp-container
-  .input-group-prepend button + .input-group-text,
+  .input-group-prepend .sp-container button + .input-group-text,
+  .sp-container .input-group-prepend button + .input-group-text,
   .input-group-prepend .input-group-text + .input-group-text,
   .input-group-prepend .input-group-text + .btn,
-  .input-group-prepend .sp-container .input-group-text + button, .sp-container
-  .input-group-prepend .input-group-text + button,
+  .input-group-prepend .sp-container .input-group-text + button,
+  .sp-container .input-group-prepend .input-group-text + button,
   .input-group-append .btn + .btn,
-  .input-group-append .sp-container button + .btn, .sp-container
-  .input-group-append button + .btn,
-  .input-group-append .sp-container .btn + button, .sp-container
-  .input-group-append .btn + button,
-  .input-group-append .sp-container button + button, .sp-container
-  .input-group-append button + button,
+  .input-group-append .sp-container button + .btn,
+  .sp-container .input-group-append button + .btn,
+  .input-group-append .sp-container .btn + button,
+  .sp-container .input-group-append .btn + button,
+  .input-group-append .sp-container button + button,
+  .sp-container .input-group-append button + button,
   .input-group-append .btn + .input-group-text,
-  .input-group-append .sp-container button + .input-group-text, .sp-container
-  .input-group-append button + .input-group-text,
+  .input-group-append .sp-container button + .input-group-text,
+  .sp-container .input-group-append button + .input-group-text,
   .input-group-append .input-group-text + .input-group-text,
   .input-group-append .input-group-text + .btn,
-  .input-group-append .sp-container .input-group-text + button, .sp-container
-  .input-group-append .input-group-text + button {
+  .input-group-append .sp-container .input-group-text + button,
+  .sp-container .input-group-append .input-group-text + button {
     margin-left: -1px; }
 
 .input-group-prepend {
@@ -2610,22 +2594,22 @@ tbody.collapse.show {
 
 .input-group > .input-group-prepend > .btn, .sp-container .input-group > .input-group-prepend > button,
 .input-group > .input-group-prepend > .input-group-text,
-.input-group > .input-group-append:not(:last-child) > .btn, .sp-container
-.input-group > .input-group-append:not(:last-child) > button,
+.input-group > .input-group-append:not(:last-child) > .btn,
+.sp-container .input-group > .input-group-append:not(:last-child) > button,
 .input-group > .input-group-append:not(:last-child) > .input-group-text,
-.input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle), .sp-container
-.input-group > .input-group-append:last-child > button:not(:last-child):not(.dropdown-toggle),
+.input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.sp-container .input-group > .input-group-append:last-child > button:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
 .input-group > .input-group-append > .btn, .sp-container .input-group > .input-group-append > button,
 .input-group > .input-group-append > .input-group-text,
-.input-group > .input-group-prepend:not(:first-child) > .btn, .sp-container
-.input-group > .input-group-prepend:not(:first-child) > button,
+.input-group > .input-group-prepend:not(:first-child) > .btn,
+.sp-container .input-group > .input-group-prepend:not(:first-child) > button,
 .input-group > .input-group-prepend:not(:first-child) > .input-group-text,
-.input-group > .input-group-prepend:first-child > .btn:not(:first-child), .sp-container
-.input-group > .input-group-prepend:first-child > button:not(:first-child),
+.input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.sp-container .input-group > .input-group-prepend:first-child > button:not(:first-child),
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
@@ -2752,7 +2736,7 @@ tbody.collapse.show {
   font-size: 75%; }
 
 .custom-select-lg {
-  height: calc(2.64063rem + 2px);
+  height: calc(2.64062rem + 2px);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 125%; }
@@ -3417,7 +3401,7 @@ tbody.collapse.show {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 0.76563rem;
+  font-size: 0.76562rem;
   line-height: 1.5; }
 
 .pagination-sm .page-item:first-child .page-link {
@@ -3952,7 +3936,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.76563rem;
+  font-size: 0.76562rem;
   word-wrap: break-word;
   opacity: 0; }
   .tooltip.show {
@@ -4037,7 +4021,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.76563rem;
+  font-size: 0.76562rem;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: padding-box;
@@ -4061,12 +4045,15 @@ button.close {
   .bs-popover-top .arrow, .bs-popover-auto[x-placement^="top"] .arrow {
     bottom: calc((0.5rem + 1px) * -1); }
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before,
-  .bs-popover-top .arrow::after, .bs-popover-auto[x-placement^="top"] .arrow::after {
+  .bs-popover-top .arrow::after,
+  .bs-popover-auto[x-placement^="top"] .arrow::after {
     border-width: 0.5rem 0.5rem 0; }
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
-  .bs-popover-top .arrow::after, .bs-popover-auto[x-placement^="top"] .arrow::after {
+  
+  .bs-popover-top .arrow::after,
+  .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
     border-top-color: #fff; }
 
@@ -4078,12 +4065,15 @@ button.close {
     height: 1rem;
     margin: 0.3rem 0; }
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before,
-  .bs-popover-right .arrow::after, .bs-popover-auto[x-placement^="right"] .arrow::after {
+  .bs-popover-right .arrow::after,
+  .bs-popover-auto[x-placement^="right"] .arrow::after {
     border-width: 0.5rem 0.5rem 0.5rem 0; }
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
-  .bs-popover-right .arrow::after, .bs-popover-auto[x-placement^="right"] .arrow::after {
+  
+  .bs-popover-right .arrow::after,
+  .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
     border-right-color: #fff; }
 
@@ -4092,12 +4082,15 @@ button.close {
   .bs-popover-bottom .arrow, .bs-popover-auto[x-placement^="bottom"] .arrow {
     top: calc((0.5rem + 1px) * -1); }
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before,
-  .bs-popover-bottom .arrow::after, .bs-popover-auto[x-placement^="bottom"] .arrow::after {
+  .bs-popover-bottom .arrow::after,
+  .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     border-width: 0 0.5rem 0.5rem 0.5rem; }
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
-  .bs-popover-bottom .arrow::after, .bs-popover-auto[x-placement^="bottom"] .arrow::after {
+  
+  .bs-popover-bottom .arrow::after,
+  .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
     border-bottom-color: #fff; }
   .bs-popover-bottom .popover-header::before, .bs-popover-auto[x-placement^="bottom"] .popover-header::before {
@@ -4118,12 +4111,15 @@ button.close {
     height: 1rem;
     margin: 0.3rem 0; }
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before,
-  .bs-popover-left .arrow::after, .bs-popover-auto[x-placement^="left"] .arrow::after {
+  .bs-popover-left .arrow::after,
+  .bs-popover-auto[x-placement^="left"] .arrow::after {
     border-width: 0.5rem 0 0.5rem 0.5rem; }
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
-  .bs-popover-left .arrow::after, .bs-popover-auto[x-placement^="left"] .arrow::after {
+  
+  .bs-popover-left .arrow::after,
+  .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
     border-left-color: #fff; }
 
@@ -6203,7 +6199,7 @@ a.text-dark:hover, a.text-dark:focus {
   *::after {
     text-shadow: none !important;
     box-shadow: none !important; }
-  a:not(.btn):not(.sp-container button) {
+  a:not(.btn) {
     text-decoration: underline; }
   abbr[title]::after {
     content: " (" attr(title) ")"; }
@@ -7797,8 +7793,8 @@ textarea.parsley-error:active {
 
 .form-layout-2 .form-control, .form-layout-2 .dataTables_filter input, .dataTables_filter .form-layout-2 input,
 .form-layout-3 .form-control,
-.form-layout-3 .dataTables_filter input, .dataTables_filter
-.form-layout-3 input {
+.form-layout-3 .dataTables_filter input,
+.dataTables_filter .form-layout-3 input {
   border: 0;
   padding: 0;
   background-color: transparent;
@@ -7852,8 +7848,8 @@ textarea.parsley-error:active {
 
 .form-layout-6 .form-control, .form-layout-6 .dataTables_filter input, .dataTables_filter .form-layout-6 input,
 .form-layout-7 .form-control,
-.form-layout-7 .dataTables_filter input, .dataTables_filter
-.form-layout-7 input {
+.form-layout-7 .dataTables_filter input,
+.dataTables_filter .form-layout-7 input {
   border: 0;
   border-radius: 0;
   padding: 0; }
@@ -8681,25 +8677,35 @@ textarea.parsley-error:active {
   border-bottom-left-radius: 2px; }
 
 .popover-head-primary.bs-popover-bottom .arrow::before, .popover-head-primary.bs-popover-auto[x-placement^="bottom"] .arrow::before, .popover-head-primary.bs-popover-auto[x-placement^="bottom"] .arrow::before,
-.popover-head-success.bs-popover-bottom .arrow::before, .popover-head-success.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-success.bs-popover-bottom .arrow::before,
 .popover-head-success.bs-popover-auto[x-placement^="bottom"] .arrow::before,
-.popover-head-warning.bs-popover-bottom .arrow::before, .popover-head-warning.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-success.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-warning.bs-popover-bottom .arrow::before,
 .popover-head-warning.bs-popover-auto[x-placement^="bottom"] .arrow::before,
-.popover-head-danger.bs-popover-bottom .arrow::before, .popover-head-danger.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-warning.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-danger.bs-popover-bottom .arrow::before,
 .popover-head-danger.bs-popover-auto[x-placement^="bottom"] .arrow::before,
-.popover-head-info.bs-popover-bottom .arrow::before, .popover-head-info.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-danger.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-info.bs-popover-bottom .arrow::before,
 .popover-head-info.bs-popover-auto[x-placement^="bottom"] .arrow::before,
-.popover-head-teal.bs-popover-bottom .arrow::before, .popover-head-teal.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-info.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-teal.bs-popover-bottom .arrow::before,
 .popover-head-teal.bs-popover-auto[x-placement^="bottom"] .arrow::before,
-.popover-head-indigo.bs-popover-bottom .arrow::before, .popover-head-indigo.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-teal.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-indigo.bs-popover-bottom .arrow::before,
 .popover-head-indigo.bs-popover-auto[x-placement^="bottom"] .arrow::before,
-.popover-head-purple.bs-popover-bottom .arrow::before, .popover-head-purple.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-indigo.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-purple.bs-popover-bottom .arrow::before,
 .popover-head-purple.bs-popover-auto[x-placement^="bottom"] .arrow::before,
-.popover-head-orange.bs-popover-bottom .arrow::before, .popover-head-orange.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-purple.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-orange.bs-popover-bottom .arrow::before,
 .popover-head-orange.bs-popover-auto[x-placement^="bottom"] .arrow::before,
-.popover-head-pink.bs-popover-bottom .arrow::before, .popover-head-pink.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-orange.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-pink.bs-popover-bottom .arrow::before,
 .popover-head-pink.bs-popover-auto[x-placement^="bottom"] .arrow::before,
-.popover-head-dark.bs-popover-bottom .arrow::before, .popover-head-dark.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-pink.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.popover-head-dark.bs-popover-bottom .arrow::before,
+.popover-head-dark.bs-popover-auto[x-placement^="bottom"] .arrow::before,
 .popover-head-dark.bs-popover-auto[x-placement^="bottom"] .arrow::before {
   display: none; }
 
@@ -10803,7 +10809,7 @@ textarea.parsley-success:focus {
 .select2-results__option {
   border-radius: 0;
   margin-bottom: 1px;
-  font-size: 0.76563rem; }
+  font-size: 0.76562rem; }
 
 .select2-container--default .select2-selection--single {
   background-color: #fff;
@@ -11337,7 +11343,7 @@ textarea.parsley-success:focus {
   .bootstrap-tagsinput .label {
     background-color: #1b84e7;
     color: #fff;
-    font-size: 0.76563rem;
+    font-size: 0.76562rem;
     padding: 2px 8px;
     margin-top: 6px;
     display: inline-block; }
@@ -12590,7 +12596,6 @@ textarea.parsley-success:focus {
 /* ----------------------------------------- */
 @media (min-width: 992px) {
   .dash-headline {
-    display: flex;
     height: 500px;
     position: relative; } }
 
