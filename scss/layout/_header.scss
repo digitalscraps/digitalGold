@@ -3,7 +3,7 @@
 /* ############### HEADER PANEL ############### */
 /* -------------------------------------------- */
 
-.slim-header {
+.dg-header {
   width: 100%;
   height: $slim-header-height;
   display: flex;
@@ -13,12 +13,13 @@
 
   .container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    
   }
 }
 
-.slim-logo {
+.dg-logo {
   margin-bottom: 0;
   letter-spacing: -2px;
   font-size: 32px;
@@ -33,46 +34,17 @@
   }
 }
 
-.search-box {
-  display: none;
-  align-items: center;
-  border: 1px solid $gray-300;
-  background-color: $gray-100;
-  padding: 2px;
-  @include border-radius(50px);
 
-  @include media-breakpoint-up(lg) {
-    display: flex;
-  }
 
-  .form-control {
-    border: 0;
-    width: 250px;
-    background-color: transparent;
-    padding-left: 20px;
-
-    &:focus,
-    &:active {
-      box-shadow: none;
-    }
-  }
-
-  .btn {
-    width: 40px;
-    height: 40px;
-    @include border-radius(100%);
-    border: 0;
-    background-color: $slim-primary;
-  }
-}
-
-.slim-header-left,
-.slim-header-right {
+.dg-header-left {
   display: flex;
+
   align-items: center;
 }
 
-.slim-header-right {
+.dg-header-right {
+  display: flex;
+  justify-content: flex-end;
 
   .dropdown-menu {
     border-top: 0;
@@ -280,100 +252,3 @@
 }
 
 
-/************** RTL SUPPORT **************
-/*****************************************/
-
-[dir="rtl"] {
-  .slim-logo {
-    @include media-breakpoint-up(lg) {
-      margin-right: 0;
-      margin-left: 60px;
-    }
-  }
-
-  .search-box {
-    .form-control {
-      padding-left: 0;
-      padding-right: 20px;
-    }
-  }
-
-  .slim-header-right {
-
-    .dropdown-menu {
-      margin-right: 0;
-      margin-left: -15px;
-      left: 0 !important;
-      right: auto !important;
-
-      &::before {
-        right: auto;
-        left: 26px;
-      }
-
-      &::after {
-        right: auto;
-        left: 26px;
-      }
-    }
-
-    .dropdown-a {
-      margin-right: 0;
-      margin-left: 2px;
-
-      .dropdown-menu {
-        @media (max-width: 414px) {
-          right: auto !important;
-          left: -92px !important;
-
-          &::before,
-          &::after {
-            right: auto;
-            left: 118px;
-          }
-        }
-
-        .col-8 { text-align: right; }
-      }
-    }
-
-    .dropdown-b {
-      .dropdown-menu {
-        @media (max-width: 379px) {
-          right: auto !important;
-          left: -50px !important;
-
-          &::before,
-          &::after {
-            right: auto;
-            left: 77px;
-          }
-        }
-
-        .media-body { text-align: right; }
-      }
-    }
-
-    .dropdown-c .nav-link .icon {
-      margin-right: 0;
-      margin-left: 8px;
-    }
-  }
-
-  .header-notification {
-    .indicator {
-      right: auto;
-      left: 6px;
-    }
-  }
-
-  .logged-user {
-    margin-left: 0;
-    margin-right: 15px;
-
-    span {
-      margin-left: 5px;
-      margin-right: 10px;
-    }
-  }
-}
