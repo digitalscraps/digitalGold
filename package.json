@@ -1,9 +1,9 @@
 {
-  "name": "slim",
+  "name": "digitalgold",
   "version": "1.0.0",
-  "description": "Responsive Bootstrap 4 Admin Template",
+  "description": "theme template for apmex product",
   "main": "index.js",
-  "author": "ThemePixels",
+  "author": "Apmex",
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
