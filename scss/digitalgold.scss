@@ -75,23 +75,18 @@
 /* ------------------------------------------------------ */
 @import "bootstrap/alerts";
 @import "bootstrap/buttons";
-@import "bootstrap/card";
-@import "bootstrap/carousel";
 @import "bootstrap/close";
 @import "bootstrap/custom-forms";
 @import "bootstrap/custom";
 @import "bootstrap/dropdown";
-@import "bootstrap/forms";
 @import "bootstrap/form-layouts";
+@import "bootstrap/forms";
 @import "bootstrap/input-group";
 @import "bootstrap/list-group";
-@import "bootstrap/modal";
 @import "bootstrap/nav";
-@import "bootstrap/pagination";
-@import "bootstrap/popover";
-@import "bootstrap/progress";
-@import "bootstrap/tooltip";
 @import "bootstrap/tables";
+@import "bootstrap/tooltip";
+
 
 // Custom mixins for lib styles
 @import "lib/mixins";
@@ -136,25 +131,9 @@
 /* -------------------------------------------------------- */
 /* ############### 6. TEMPLATE PAGES STYLES ############### */
 /* -------------------------------------------------------- */
-@import "pages/contacts";
 @import "pages/dashboard";
 @import "pages/dropdown";
-@import "pages/error";
-@import "pages/file-manager";
 @import "pages/form-layouts";
-@import "pages/invoice";
-@import "pages/media";
-@import "pages/messages";
-@import "pages/modal";
-@import "pages/pagination";
-@import "pages/popover";
-@import "pages/pricing";
-@import "pages/profile";
-@import "pages/signin";
-@import "pages/timeline";
-@import "pages/tooltip";
-@import "pages/widgets";
-@import "pages/landing";
 
 /* ------------------------------------------------------------- */
 /* ############### 7. UTILITIES / HELPER CLASSES ############### */
