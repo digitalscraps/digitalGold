@@ -2,7 +2,7 @@
 /* ############### TEMPLATE NAVBAR STYLES ############### */
 /* ------------------------------------------------------ */
 
-.slim-navbar {
+.dg-navbar {
   padding: 15px 0;
   background-color: #fff;
   border-bottom: 1px solid $gray-400;
@@ -77,7 +77,7 @@
     letter-spacing: .7px;
     font-weight: 500;
     color: darken($gray-600, 3%);
-    height: $slim-navbar-height;
+    height: $dg-navbar-height;
     padding: 0;
     display: flex;
     align-items: center;
@@ -153,7 +153,7 @@
   .sub-item {
     background-color: #fff;
     position: absolute;
-    top: $slim-navbar-height;
+    top: $dg-navbar-height;
     left: 0;
     border: 1px solid $gray-400;
     border-top: 0;
@@ -235,7 +235,7 @@
 /************ RTL SUPPORT ************/
 
 [dir="rtl"] {
-  .slim-navbar {
+  .dg-navbar {
     .nav-item {
       &.active {
         + .nav-item {

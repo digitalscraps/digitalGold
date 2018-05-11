@@ -19,7 +19,7 @@
   margin-bottom: 10px;
   color: $gray-800;
   padding-left: 10px;
-  border-left: 4px solid $slim-primary;
+  border-left: 4px solid $dg-primary;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
@@ -32,19 +32,5 @@
   }
 }
 
-.slim-breadcrumb {
-  margin-bottom: 0;
-  padding: 0;
-  background-color: transparent;
-  font-size: 12px;
-
-  @include media-breakpoint-up(sm) { font-size: 14px; }
-
-  .breadcrumb-item {
-    + .breadcrumb-item::before {
-      color: $gray-400;
-    }
-  }
-}
 
 

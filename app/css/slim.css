@@ -11861,28 +11861,28 @@ textarea.parsley-success:focus {
   border-top: 0; }
 
 /***** STICKY HEADER *****/
-.slim-sticky-header .dg-header {
+.dg-sticky-header .dg-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000; }
 
-.slim-sticky-header .dg-navbar {
+.dg-sticky-header .dg-navbar {
   position: fixed;
   top: 75px;
   left: 0;
   width: 100%;
   z-index: 1000; }
-  .slim-sticky-header .dg-navbar .sub-item {
+  .dg-sticky-header .dg-navbar .sub-item {
     max-height: calc(100vh - 152px);
     overflow-y: auto; }
     @media (min-width: 992px) {
-      .slim-sticky-header .dg-navbar .sub-item {
+      .dg-sticky-header .dg-navbar .sub-item {
         max-height: none;
         overflow-y: inherit; } }
 
-.slim-sticky-header .dg-mainpanel {
+.dg-sticky-header .dg-mainpanel {
   margin-top: 152px; }
 
 /* ------------------------------------------------------ */

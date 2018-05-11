@@ -134,7 +134,7 @@
 
 
 /***** STICKY HEADER *****/
-.slim-sticky-header {
+.dg-sticky-header {
   .dg-header {
     position: fixed;
     top: 0;
@@ -145,7 +145,7 @@
 
   .dg-navbar {
     position: fixed;
-    top: $slim-header-height;
+    top: $dg-header-height;
     left: 0;
     width: 100%;
     z-index: 1000;
@@ -161,5 +161,5 @@
     }
   }
 
-  .dg-mainpanel { margin-top: $slim-header-height + 77px; }
+  .dg-mainpanel { margin-top: $dg-header-height + 77px; }
 }
