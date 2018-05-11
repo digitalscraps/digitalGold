@@ -9652,6 +9652,9 @@ textarea.parsley-success:focus {
   display: flex;
   justify-content: center; }
 
+.verify {
+  color: #296EFB; }
+
 /* --------------------------------------------- */
 /* ############### STICKY HEADER ############### */
 /* --------------------------------------------- */
