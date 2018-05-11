@@ -10,7 +10,7 @@ var mainBowerFiles = require('main-bower-files');
 var bowerNormalizer = require('gulp-bower-normalize');
 
 gulp.task('sass-css', function(){
-  return gulp.src('scss/slim.scss')
+  return gulp.src('scss/digitalgold.scss')
     .pipe(sass())
     .pipe(gulp.dest('app/css'))
     .pipe(browserSync.reload({
@@ -19,7 +19,7 @@ gulp.task('sass-css', function(){
 });
 
 gulp.task('minify-css', function(){
-  return gulp.src('scss/slim.scss')
+  return gulp.src('scss/digitalgold.scss')
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('app/css'))
@@ -31,7 +31,7 @@ gulp.task('minify-css', function(){
 gulp.task('sass-skin', function(){
   return gulp.src('scss/skins/*.scss')
     .pipe(sass())
-    .pipe(rename({prefix: 'slim.'}))
+    .pipe(rename({prefix: 'dg.'}))
     .pipe(gulp.dest('app/css'))
     .pipe(browserSync.reload({
       stream: true
