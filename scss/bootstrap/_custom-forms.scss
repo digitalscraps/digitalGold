@@ -142,17 +142,7 @@
 
 .rdiobox-inline { display: inline-block; }
 
-/* Radiobox Color Variant */
-.rdiobox-success { @include rdiobox-color-variant(theme-color('success')); }
-.rdiobox-warning { @include rdiobox-color-variant(theme-color('warning')); }
-.rdiobox-danger { @include rdiobox-color-variant(theme-color('danger')); }
-.rdiobox-info { @include rdiobox-color-variant(theme-color('info')); }
-.rdiobox-indigo { @include rdiobox-color-variant($indigo); }
-.rdiobox-purple { @include rdiobox-color-variant($purple); }
-.rdiobox-orange { @include rdiobox-color-variant($orange); }
-.rdiobox-pink { @include rdiobox-color-variant($pink); }
-.rdiobox-teal { @include rdiobox-color-variant($teal); }
-.rdiobox-dark { @include rdiobox-color-variant($gray-800); }
+
 
 
 /* Inside input group */

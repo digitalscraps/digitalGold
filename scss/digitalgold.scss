@@ -77,19 +77,14 @@
 @import "bootstrap/buttons";
 @import "bootstrap/close";
 @import "bootstrap/custom-forms";
-@import "bootstrap/custom";
 @import "bootstrap/dropdown";
-@import "bootstrap/form-layouts";
 @import "bootstrap/forms";
 @import "bootstrap/input-group";
-@import "bootstrap/list-group";
-@import "bootstrap/nav";
-@import "bootstrap/tables";
-@import "bootstrap/tooltip";
+
 
 
 // Custom mixins for lib styles
-@import "lib/mixins";
+// @import "lib/mixins";
 
 /* ------------------------------------------------------- */
 /* ############### 4. CUSTOM VENDOR STYLES ############### */
@@ -97,14 +92,12 @@
 
 @import "lib/jquery-steps";
 @import "lib/jquery-ui";
-@import "lib/parsley";
-@import "lib/select2";
-@import "lib/spectrum";
+// @import "lib/parsley";
+// @import "lib/spectrum";
 
 /* --------------------------------------------------------- */
 /* ############### 5. TEMPLATE LAYOUT STYLES ############### */
 /* --------------------------------------------------------- */
-@import "layout/demo";
 @import "layout/footer";
 @import "layout/full-width";
 @import "layout/global";
@@ -127,8 +120,6 @@
 /* ------------------------------------------------------------- */
 /* ############### 7. UTILITIES / HELPER CLASSES ############### */
 /* ------------------------------------------------------------- */
-@import "util/background";
-@import "util/border";
 @import "util/height";
 @import "util/hover";
 @import "util/margin";

@@ -6,7 +6,6 @@
 .dg-footer {
   border-top: 1px solid $gray-400;
   background-color: $blue;
-  @include gradient-x($blue,lighten($darkblue,15%));
   margin-top: 30px;
   padding: 15px 0;
   color: $white;
