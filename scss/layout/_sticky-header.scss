@@ -3,7 +3,7 @@
 /* --------------------------------------------- */
 
 .sticky-header {
-  .slim-header {
+  .dg-header {
     position: fixed;
     top: 0;
     left: 0;
@@ -12,7 +12,7 @@
 
   .dg-navbar {
     position: fixed;
-    top: $slim-header-height;
+    top: $dg-header-height;
     left: 0;
     width: 100%;
     z-index: 1000;
