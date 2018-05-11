@@ -94,39 +94,28 @@
 /* ------------------------------------------------------- */
 /* ############### 4. CUSTOM VENDOR STYLES ############### */
 /* ------------------------------------------------------- */
-@import "lib/chartist";
-@import "lib/datatables";
-@import "lib/flot";
-@import "lib/fullcalendar";
-@import "lib/ionrangeslider";
-@import "lib/jquery-steps";
-@import "lib/jqvmap";
-@import "lib/jquery-ui";
-@import "lib/medium-editor";
-@import "lib/morris";
-@import "lib/parsley";
-@import "lib/perfect-scrollbar";
-@import "lib/rickshaw";
-@import "lib/select2";
-@import "lib/sparkline";
-@import "lib/spectrum";
-@import "lib/summernote";
-@import "lib/tagsinput";
-@import "lib/toggles";
 
+@import "lib/jquery-steps";
+@import "lib/jquery-ui";
+@import "lib/parsley";
+@import "lib/select2";
+@import "lib/spectrum";
 
 /* --------------------------------------------------------- */
 /* ############### 5. TEMPLATE LAYOUT STYLES ############### */
 /* --------------------------------------------------------- */
 @import "layout/demo";
-@import "layout/header";
-@import "layout/global";
-@import "layout/navbar";
-@import "layout/mainpanel";
-@import "layout/sticky-header";
 @import "layout/footer";
 @import "layout/full-width";
+@import "layout/global";
+@import "layout/header";
+@import "layout/mainpanel";
+@import "layout/navbar";
 @import "layout/onboarding-header";
+@import "layout/sticky-header";
+
+
+
 
 /* -------------------------------------------------------- */
 /* ############### 6. TEMPLATE PAGES STYLES ############### */
