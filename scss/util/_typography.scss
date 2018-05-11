@@ -3,7 +3,7 @@
 /* ------------------------------------------ */
 
 // Font weights
-.tx-black       { font-weight: 900; }
+.tx-black     { font-weight: 900; }
 .tx-bold      { font-weight: 700; }
 .tx-semibold  { font-weight: 600; }
 .tx-medium    { font-weight: 500; }
@@ -15,10 +15,6 @@
 // Font Family
 .tx-avenir    { font-family: $font-family-avenir; }
 .tx-roboto    { font-family: $font-family-roboto; }
-.tx-opensans  { font-family: $font-family-opensans; }
-.tx-mont      { font-family: $font-family-montserrat; }
-.tx-lato      { font-family: $font-family-lato; }
-.tx-sserif    { font-family: $font-family-sans-serif; }
 
 // Font colors
 .tx-white     { color: #fff; }
