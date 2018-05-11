@@ -143,7 +143,7 @@
     z-index: 1000;
   }
 
-  .slim-navbar {
+  .dg-navbar {
     position: fixed;
     top: $slim-header-height;
     left: 0;
@@ -161,5 +161,5 @@
     }
   }
 
-  .slim-mainpanel { margin-top: $slim-header-height + 77px; }
+  .dg-mainpanel { margin-top: $slim-header-height + 77px; }
 }
