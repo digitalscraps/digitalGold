@@ -1,0 +1,23 @@
+.header {
+    background-color: #2B303D;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.brand {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+    background-color: #296EFB;
+    color: #E7F1EF;
+    font-size: 28px;
+    padding: 20px 10px;
+    font-weight: 600;
+}
+
+.login {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
