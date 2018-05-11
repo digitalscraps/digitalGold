@@ -9648,6 +9648,10 @@ textarea.parsley-success:focus {
   margin-right: -15px;
   margin-left: -15px; }
 
+.on-container {
+  display: flex;
+  justify-content: center; }
+
 /* --------------------------------------------- */
 /* ############### STICKY HEADER ############### */
 /* --------------------------------------------- */
