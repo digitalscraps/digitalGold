@@ -184,7 +184,7 @@
   h4 {
     color: $gray-800;
     font-size: 32px;
-    font-family: $font-family-lato;
+    font-family: $font-family-avenir;
     font-weight: 700;
   }
 
@@ -262,7 +262,7 @@
   h1 {
     font-weight: 400;
     font-size: 48px;
-    font-family: $font-family-lato;
+    font-family: $font-family-avenir;
     margin-bottom: 10px;
   }
 
@@ -341,7 +341,7 @@
     h2 {
       color: $gray-800;
       font-weight: 700;
-      font-family: $font-family-lato;
+      font-family: $font-family-avenir;
       margin-bottom: 0;
     }
   }
@@ -358,7 +358,7 @@
       justify-content: space-between;
     }
 
-    .slim-card-title { margin-bottom: 0; }
+    .dg-card-title { margin-bottom: 0; }
 
     .nav {
       margin-top: 10px;
@@ -402,7 +402,7 @@
   h1 {
     margin-bottom: 0;
     color: $gray-800;
-    font-family: $font-family-lato;
+    font-family: $font-family-avenir;
     font-weight: 700;
   }
 
@@ -413,7 +413,7 @@
 }
 
 .dashboard-3 {
-  .slim-pagetitle { line-height: 1.5; }
+  .dg-pagetitle { line-height: 1.5; }
   .card-activities {
     @include media-breakpoint-up(lg) { height: 435px; }
     @include media-breakpoint-up(xl) { height: 435px; }
@@ -485,7 +485,7 @@
 
   h1 {
     color: $gray-800;
-    font-family: $font-family-lato;
+    font-family: $font-family-avenir;
     font-weight: 700;
     margin-bottom: 3px;
   }
@@ -536,7 +536,7 @@
   }
 
   .right-panel {
-    .slim-card-title {
+    .dg-card-title {
       font-family: $font-family-base;
       letter-spacing: 1px;
       font-size: 12px;
@@ -550,7 +550,7 @@
       font-size: 96px;
       font-weight: 300;
       color: $gray-800;
-      font-family: $font-family-lato;
+      font-family: $font-family-avenir;
       margin-bottom: 5px;
       line-height: 1;
     }
@@ -643,7 +643,7 @@
     h1 {
       margin-bottom: 0;
       color: $gray-800;
-      font-family: $font-family-lato;
+      font-family: $font-family-avenir;
       font-weight: 700;
     }
 
@@ -677,7 +677,7 @@
 
     h1 {
       font-size: 64px;
-      font-family: $font-family-lato;
+      font-family: $font-family-avenir;
       font-weight: 700;
       color: $gray-800;
       text-align: center;
@@ -702,7 +702,7 @@
     }
 
     h1 {
-      font-family: $font-family-lato;
+      font-family: $font-family-avenir;
       color: $gray-800;
       font-size: 40px;
       font-weight: 700;
@@ -728,7 +728,7 @@
       span {
         color: $gray-800;
         font-weight: 700;
-        font-family: $font-family-lato;
+        font-family: $font-family-avenir;
       }
     }
   }
@@ -866,7 +866,7 @@
 
   h1 {
     color: $gray-900;
-    font-family: $font-family-lato;
+    font-family: $font-family-avenir;
     font-weight: 700;
     margin-bottom: 0;
     letter-spacing: -1px;
