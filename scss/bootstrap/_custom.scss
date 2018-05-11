@@ -173,11 +173,3 @@ p { margin-bottom: 20px; }
 .section-label { font-size: 12px; }
 .section-label-sm { font-size: 11px; }
 
-
-
-/********** RTL SUPPORT **********/
-[dir="rtl"] {
-  .section-label {
-    text-align: right;
-  }
-}

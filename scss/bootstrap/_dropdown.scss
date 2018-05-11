@@ -182,39 +182,3 @@
     }
   }
 }
-
-
-/*************************************/
-/************ RTL SUPPORT ************/
-
-[dir="rtl"] {
-  .dropdown-list {
-    .dropdown-link {
-      .media-body {
-        margin-left: 0;
-        margin-right: 15px;
-      }
-    }
-  }
-
-  .dropdown-nav {
-    .nav-link {
-      .icon {
-        margin-right: 0;
-        margin-left: 5px;
-      }
-    }
-  }
-
-  .dropdown-media-list {
-    .media-body {
-      margin-left: 0;
-      margin-right: 15px;
-      text-align: right;
-    }
-  }
-
-  .nav-tabs-dropdown {
-    padding-right: 0;
-  }
-}
