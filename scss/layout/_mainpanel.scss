@@ -32,5 +32,19 @@
   }
 }
 
+.dg-breadcrumb {
+  margin-bottom: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 12px;
+
+  @include media-breakpoint-up(sm) { font-size: 14px; }
+
+  .breadcrumb-item {
+    + .breadcrumb-item::before {
+      color: $gray-400;
+    }
+  }
+}
 
 

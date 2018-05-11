@@ -1,0 +1,25 @@
+/* --------------------------------------------- */
+/* ############### STICKY HEADER ############### */
+/* --------------------------------------------- */
+
+.sticky-header {
+  .dg-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1010;
+  }
+
+  .dg-navbar {
+    position: fixed;
+    top: $dg-header-height;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .dg-mainpanel {
+    padding-top: 160px;
+    min-height: 100vh;
+  }
+}

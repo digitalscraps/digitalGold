@@ -1,0 +1,32 @@
+.on-header {
+    background-color: #2B303D;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.on-brand {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+    background-color: #296EFB;
+    color: #E7F1EF;
+    font-size: 28px;
+    padding: 20px 10px;
+    font-weight: 600;
+}
+
+.on-login {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.onboarding-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}

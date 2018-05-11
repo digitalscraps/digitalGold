@@ -22,7 +22,7 @@
 .btn-purple { @include button-variant($purple, darken($purple, 5%)); }
 .btn-pink { @include button-variant($pink, darken($pink, 5%)); }
 .btn-teal { @include button-variant($teal, darken($teal, 5%)); }
-.btn-slim { @include button-variant($slim-primary, darken($slim-primary, 5%)); }
+.btn-dg { @include button-variant($dg-primary, darken($dg-primary, 5%)); }
 
 .btn-outline-light { @include button-outline-variant($gray-500, #fff); }
 .btn-outline-indigo { @include button-outline-variant($indigo, #fff); }
